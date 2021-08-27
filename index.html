@@ -1,80 +1,105 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-     <link rel="stylesheet" href="assets/stylesheets/style.css">
-     <title>珈琲煎焙所 喜代志商行 網路名片</title>
-   </head>
-   <body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <title>珈琲煎焙所 喜代志商行 網路名片</title>
+  </head>
+  <body>
+    <div class="container box">
 
-  <!--
-    <div class="container">
-      <div class="columns is-mobile">
-        <div class="column">1</div>
-        <div class="column">2</div>
-        <div class="column">3</div>
-        <div class="column">4</div>
-      </div>
-    </div>
-  -->
-    <section id="information" class="section">
-      <div class="container">
-        <div class="columns is-mobile is-gapless">
-          <div class="column is-half is-offset-one-quarter is-offset-1-mobile">
-            <h1 class="title">珈琲煎焙所<br>喜代志商行</h1>
-            <h5 class="subtitle">營業時間 10:00 a.m. - 7:00 p.m. 固定週一、週二公休<br>自製咖啡、飲品、甜點<br>外帶、內用</h5>
+      <header>
+
+        <section id="information">
+          <div class="wrap columns is-centered">
+            <div class="column is-half">
+              <div class="content has-text-centered">
+                <h1 class="title is-size-3">珈琲煎焙所 喜代志商行</h1>
+                <h2 class="title is-size-5">自製咖啡、飲品、甜點</h2>
+                <h3 class="subtitle is-size-6 ">營業時間 10:00 a.m. - 7:00 p.m.<br>固定週一、週二公休<br>宜蘭縣三星鄉尾塹一路105號</h3>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
+      </header>
 
-    <section id="contact-buttons">
-      <div class="columns is-mobile">
-        <div class="column is-one-quarters is-3-mobile">
-
-        </div>
-        <div class="column">
-          <div class="columns">
-            <div class="column">
-              <a href="https://kiyoshi.cafe">
-                <button class="button is-primary">前往販賣部網站</button>
-              </a>
-            </div>
-            <div class="column">
-              <a href="https://goo.gl/maps/txU9Aw7GXq3M5pxH6">
-                <button class="button is-info">在GoogleMap顯示</button>
-              </a>
-            </div>
-            <div class="column">
-              <a href="tel:03-9557985">
-                <button class="button is-danger">撥打店內電話</button>
-              </a>
-            </div>
-            <div class="column">
-              <a href="mailto:me@kiyoshi.cafe">
-                <button class="button is-dark">寫封電郵給商行</button>
-              </a>
+      <section id="functions">
+        <div class="wrap columns is-centered">
+          <div class="column is-half">
+            <div class="columns">
+              <div class="column has-text-centered">
+                <div class="button is-large is-primary"><i class="fas fa-phone"></i>&nbsp03-9557985</div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="button is-large is-primary"><i class="fas fa-location-arrow"></i>&nbsp查看導航地圖</div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="column is-one-quarters">
-
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container">
-        <div class="columns is-mobile">
-          <div class="column is-offset-two-fifths is-offset-1-mobile">
-            <h5>版本：0.1.1, 8/26/21 釋出</h5>
-
+      </section>
+      <section id="contact">
+        <div class="wrap columns is-centered">
+          <div class="column is-three-fifths has-text-centered">
+            <h2 class="title is-size-4">網路平台資源</h2>
+            <div class="columns is-vcentered is-centered is-mobile">
+              <div id="official-site" class="column has-text-centered">
+                <div class="icon">
+                  <i class="fab fa-safari"></i>
+                </div>
+                <div class="content">
+                  <p>官方網站</p>
+                </div>
+              </div>
+              <div id="facebook-page" class="column has-text-centered">
+                <div class="icon">
+                  <i class="fab fa-facebook-square"></i>
+                </div>
+                <div class="content">
+                  <p>粉絲專頁<br></p>
+                </div>
+              </div>
+              <div id="instagram-page" class="column has-text-centered">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                </div>
+                <div class="content">
+                  <p>Instagram</p>
+                </div>
+              </div>
+              <!--
+              <div id="mail" class="column has-text-centered">
+                <div class="icon">
+                  <i class="fas fa-at"></i>
+                </div>
+                <div class="content">
+                  <p>寄電子郵件<br>me@kiyoshi.cafe</p>
+                </div>
+              </div>
+            -->
+            </div>
           </div>
         </div>
 
-      </div>
-    </footer>
-   </body>
-   </html>
+        </section>
+
+
+      <footer>
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-narrow">
+              <div class="content has-text-centered">
+                <p class="is-size-7">版本：0.2.0 8/26/21</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+  </body>
+
+</html>
