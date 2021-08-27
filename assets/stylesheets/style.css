@@ -36,10 +36,6 @@ footer {
   padding: 1rem 0;
 }
 
-#squares > .column:hover {
-  background-color: hsl(44, 100%, 77%);
-}
-
 #squares > .column:nth-of-type(2n) {
   background-color: #f7f7f7;
 }
