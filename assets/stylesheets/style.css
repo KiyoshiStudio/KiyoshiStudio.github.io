@@ -1,3 +1,15 @@
+header {
+  margin-top: 3rem;
+}
+
+footer {
+  margin-top: 50px;margin-bottom: 10px;
+}
+
+#functions .button {
+  width: 100%;
+}
+
 #contact .title {
   margin-top: 3rem;
 }
@@ -6,22 +18,32 @@
   margin-top: 2rem;
 }
 
-footer {
-  margin-top: 50px;margin-bottom: 10px;
-}
 
-header {
-  margin-top: 3rem;
-}
-
-#functions .button {
+#contact .icon {
   width: 100%;
+  height: 4rem;
 }
 
-.icon i {
+#contact .icon i {
     font-size: 4rem;
   }
 
 #contact .icon {
   margin-bottom: 1.5rem;
+}
+
+#squares > .column {
+  padding: 1rem 0;
+}
+
+#squares > .column:hover {
+  background-color: hsl(44, 100%, 77%);
+}
+
+#squares > .column:nth-of-type(2n) {
+  background-color: #f7f7f7;
+}
+
+#squares > .column:nth-of-type(2n+1) {
+  background-color: #eeeeee;
 }
