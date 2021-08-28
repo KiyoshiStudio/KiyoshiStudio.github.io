@@ -8,6 +8,7 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <script src="/assets/javascripts/jQuery-3.6.0.js"></script>
     <title>珈琲煎焙所 喜代志商行 數位名片</title>
   </head>
   <body>
@@ -29,7 +30,7 @@
       </header>
 
       <section id="functions">
-        <div class="wrap columns is-centered">
+        <div class="columns is-centered">
           <div class="column is-half">
             <div class="columns">
               <div class="column has-text-centered">
@@ -47,15 +48,18 @@
           <div class="column is-three-fifths has-text-centered">
             <h2 class="title is-size-4">網路平台資源</h2>
             <div id="squares" class="columns is-vcentered is-centered is-mobile" >
-              <div id="official-site" class="column has-text-centered">
+              <div id="official-site" class="column has-text-centered" onclick="location.href='https://kiyoshi.cafe'">
                 <div class="icon">
                   <i class="fab fa-safari"></i>
                 </div>
-                <div class="content">
+                <div aclass="content">
                   <p>官方網站</p>
                 </div>
               </div>
-              <div id="facebook-page" class="column has-text-centered">
+<script>
+  $("#official-site")
+</script>
+              <div id="facebook-page" class="column has-text-centered" onclick="location.href='https://facebook.com/kiyoshi.cafe'" data-hover="https://facebook.com/kiyoshi.cafe">
                 <div class="icon">
                   <i class="fab fa-facebook-square"></i>
                 </div>
@@ -63,7 +67,7 @@
                   <p>粉絲專頁<br></p>
                 </div>
               </div>
-              <div id="instagram-page" class="column has-text-centered">
+              <div id="instagram-page" class="column has-text-centered" onclick="location.href='https://instagram.com/kiyoshi.cafe'">
                 <div class="icon">
                   <i class="fab fa-instagram"></i>
                 </div>
