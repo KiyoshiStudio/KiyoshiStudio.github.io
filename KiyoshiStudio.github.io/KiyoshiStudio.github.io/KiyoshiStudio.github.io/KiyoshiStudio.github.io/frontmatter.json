@@ -1,0 +1,66 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "subtitle",
+          "name": "subtitle",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "featured_image",
+          "name": "featured_image",
+          "type": "image"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.preview.host": "http://localhost:4000",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "drafts",
+      "path": "[[workspace]]/_drafts"
+    },
+    {
+      "title": "posts",
+      "path": "[[workspace]]/_posts"
+    },
+    {
+      "path": "[[workspace]]/_includes",
+      "title": "_includes"
+    },
+    {
+      "path": "[[workspace]]/_projects",
+      "title": "_projects"
+    },
+    {
+      "path": "[[workspace]]/_pages",
+      "title": "_pages"
+    },
+    {
+      "title": "images",
+      "path": "[[workspace]]/assets/images"
+    }
+  ]
+}
